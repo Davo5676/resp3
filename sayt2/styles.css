@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.hero {
+    background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRbJJhNOXE679tR2KZowsruTlxeF11muk7t7DzLp9DjO-EHRTgg) no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+}
+
+.hero-content .btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.description {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: white;
+}
+
+.description h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.description p {
+    margin-bottom: 1rem;
+}
+
+.content .btn {
+    display: inline-block;
+    background: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+
+.gallery {
+    padding: 3rem 1rem;
+}
+
+.image-grid {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.image-grid img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+.special {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+.special h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    background: black;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.footer-grid div {
+    padding: 1rem;
+    background: #444;
+    border-radius: 5px;
+}
+
+.contact p {
+    margin-bottom: 0.5rem;
+}
+
+.btnn {
+   background-color: black;
+}
